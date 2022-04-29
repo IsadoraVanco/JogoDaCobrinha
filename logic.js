@@ -110,7 +110,7 @@ function desenhaFruta() {
 function analisaPosicao(){
 	if(posicaoCobraX == posicaoFrutaX && posicaoCobraY == posicaoFrutaY){
 		pontos += 10;
-		velocidade -= 10;
+		velocidade -= 20;
 		posicaoFrutaX = selecionaPosicao(largura);
 		posicaoFrutaY = selecionaPosicao(altura);
 	}else{
@@ -207,7 +207,7 @@ var posicaoFrutaX;
 var posicaoFrutaY;
 
 var pontos = 0;
-var velocidade = 500;
+var velocidade = 300;
 
 var esquerda = 37;
 var cima = 38;
